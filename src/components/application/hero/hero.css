@@ -27,7 +27,7 @@
 }
 .hero .picture-container {
     width: 60%;
-    background: url("../../assets/images/hero_picture_devices.png");
+    background: url("../../../assets/images/hero_picture_devices.png");
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;

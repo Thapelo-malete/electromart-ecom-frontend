@@ -1,8 +1,8 @@
 import { Badge } from '@mui/material';
-import shoppingCart from '../../assets/icons/shopping-cart.svg'
-import favourite from '../../assets/icons/heart.svg'
-import search from '../../assets/icons/search-outline.svg'
-import profile from '../../assets/icons/user.svg'
+import shoppingCart from '../../../assets/icons/shopping-cart.svg'
+import favourite from '../../../assets/icons/heart.svg'
+import search from '../../../assets/icons/search-outline.svg'
+import profile from '../../../assets/icons/user.svg'
 import './navigation-bar.css'
 
 const NavigationBar = () => {

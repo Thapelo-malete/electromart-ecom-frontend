@@ -1,8 +1,7 @@
-import React from 'react';
-import NavigationBar from '../../components/navigation-bar/NavigationBar';
-import Hero from '../../components/hero/Hero';
-import ProductsSection from '../../components/products-section/ProductsSection';
-import Footer from '../../components/footer/Footer';
+import Footer from "../../components/application/footer/Footer";
+import Hero from "../../components/application/hero/Hero";
+import NavigationBar from "../../components/application/navigation-bar/NavigationBar";
+import ProductsSection from "../../components/application/products-section/ProductsSection";
 
 const Home = () => {
     return (

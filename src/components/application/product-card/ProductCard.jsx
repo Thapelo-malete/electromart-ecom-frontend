@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../../assets/images/iPhone_12_Pro_Gold_PDP_Image_Position-2__en-US_1.webp"
+import image from "../../../assets/images/iPhone_12_Pro_Gold_PDP_Image_Position-2__en-US_1.webp"
 import { StarRateRounded } from '@mui/icons-material';
 import './product-card.css'
 

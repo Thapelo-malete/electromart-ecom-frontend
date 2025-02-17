@@ -1,5 +1,5 @@
 import React from 'react';
-import searchIcon from '../../assets/icons/search-outline.svg'
+import searchIcon from '../../../assets/icons/search-outline.svg'
 import './products-section.css'
 import ProductCategories from '../product-categories/ProductCategories';
 import Products from '../products/Products';
