@@ -1,0 +1,17 @@
+.product-categories h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.product-categories .category {
+    padding: 0.2rem 0;
+}
+
+.product-categories .categories label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.product-categories .categories input {
+    margin-left: 0;
+}

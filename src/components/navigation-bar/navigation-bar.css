@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.top-navigation-bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    position: sticky;
+    top: 0;
+}
+
+/* Logo */
+
+.logo {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo End!!! */
+
+/* Navigation bar mid-section */
+
+.top-navigation-bar .navigation-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.top-navigation-bar .navigation-links .nav-item {
+    padding-left: 1.5rem;
+}
+
+.top-navigation-bar .navigation-links .nav-item a {
+    padding: 0.6rem 0;
+    color: #000;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Navigation bar mid-section END!!!*/
+
+
+/* Navigation bar right-section */
+
+.top-navigation-bar .nav-user-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation-bar .nav-user-links .nav-user-item {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.top-navigation-bar .nav-user-links .nav-user-item button {
+    border: none;
+    background-color: transparent;
+}
+
+.top-navigation-bar .nav-user-links .nav-user-item img {
+    width: 1.3rem;
+}
+
+/* Navigation bar right-section END!!!*/

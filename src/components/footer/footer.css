@@ -1,0 +1,67 @@
+.footer {
+    background-color: #161515;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding: 4rem;
+    gap: 3rem;
+}
+
+.footer .subscribe h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 1rem 0;
+}
+.footer .subscribe input {
+    padding: 0.3rem;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.footer .subscribe .input-control {
+    padding: 0.3rem 0.3rem 0.3rem 1rem;
+    background-color: white;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.footer .subscribe .input-control button {
+    padding: 0.8rem 1rem;
+    background-color: #161515;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 2rem;
+}
+.footer .important-links {
+    display: flex;
+    justify-content: center;
+}
+.footer .important-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .important-links h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.footer .important-links a {
+    display: inline-block;
+    padding: 0.2rem 0;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer .contact {
+    color: white;
+}
+.footer .contact h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+

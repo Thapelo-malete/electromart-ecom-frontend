@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.products-section {
+    padding: 0 4rem 4rem;
+}
+
+.products-section .products-outer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.products-section .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-section .header h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.products-section .product-search-form .input-container {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    border: 1px solid #eee;
+    border-radius: 2.1rem;
+    padding: 0.3rem;
+    width: 400px;
+}
+
+.products-section .product-search-form .input-container span {
+    display: flex;
+    padding: .3rem;
+}
+
+.products-section .product-search-form input {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.products-section .product-search-form input::placeholder {
+    font-weight: 600;
+}
+
+.products-section .product-search-form .input-container img {
+    width: 1.2rem;
+}
+
+.products-section .product-search-form .input-container button {
+    border: none;
+    padding: 0.4rem 1rem;
+    color: white;
+    background-color: #161515;
+    font-size: 1rem;
+    border-radius: 2.1rem;
+}
